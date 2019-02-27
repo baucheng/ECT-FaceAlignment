@@ -22,7 +22,8 @@ import rspimage
 
 # initial the caffe net
 os.environ['GLOG_minloglevel'] = '1'
-caffe_root = '../caffe/'
+#caffe_root = '../caffe/'
+caffe_root = '/opt/caffe/'
 sys.path.insert(0, caffe_root + 'python')
 import caffe
 
